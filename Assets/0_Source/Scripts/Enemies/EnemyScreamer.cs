@@ -7,7 +7,8 @@ public class EnemyScreamer : MonoBehaviour
     [SerializeField] private float delay;
     [SerializeField] private EnemyMove enemyMove;
     
-    
+    private Animator _animator;
+    private string _animationAttack = "Attack";
     private InteractObject _interactObject;
     public static Action<GameObject> ScreamEvent;
 
@@ -25,6 +26,7 @@ public class EnemyScreamer : MonoBehaviour
 
     public void StartScream()
     {
+        _animator = GetComponentInChildren<Animator>();
         StartCoroutine(DelayScream());
     }
 
@@ -33,10 +35,14 @@ public class EnemyScreamer : MonoBehaviour
         yield return new WaitForSeconds(delay);
         if (_interactObject)
         {
-            if (_interactObject.IsActive)       
+            if (_interactObject.IsActive)
+            {
+                enemyMove.ReturnToStartPointAndMove();
                 yield break;
+            }       
         }
         
+        _animator.SetTrigger(_animationAttack);
         ScreamEvent?.Invoke(gameObject);
     }
 

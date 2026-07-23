@@ -39,6 +39,12 @@ public class EnemyMove : MonoBehaviour
         
         OnMovementCompleteEvent?.Invoke();
     }
+
+    public void ReturnToStartPointAndMove()
+    {
+        _currentPointIndex = 0;
+        StartCoroutine(MoveRoutine());
+    }
     
     private void InitializationPoints(Transform movePoints)
     {

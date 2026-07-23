@@ -1,13 +1,36 @@
 using System;
+using System.Collections;
 using UnityEngine;
 
 public class PanelsController : MonoBehaviour
 {
-   public GameObject panelWin;
-   public GameObject panelLose;
-   public GameObject panelPause;
+    [SerializeField] private GameObject panelWin;
+    [SerializeField] private GameObject panelGameOver; 
+    [SerializeField] private GameObject panelPause;
+    [SerializeField] private float delayActivePanelGameOver = 4;
 
    private bool isPaused;
+
+   private void OnEnable()
+   {
+       ScreamerManager.ScreamEvent += StartActivePanelGameOver;
+   }
+
+   private void OnDisable()
+   {
+       ScreamerManager.ScreamEvent -= StartActivePanelGameOver;
+   }
+
+   private void StartActivePanelGameOver()
+   {
+       StartCoroutine(ActivePanelGameOverTimer());
+   }
+
+   private IEnumerator ActivePanelGameOverTimer()
+   {
+       yield return new WaitForSeconds(delayActivePanelGameOver);
+       panelGameOver.SetActive(true);
+   }
    
    public void SetActivePanelWin(bool active)
    {
