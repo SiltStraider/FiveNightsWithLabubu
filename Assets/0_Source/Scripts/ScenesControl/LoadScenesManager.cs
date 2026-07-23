@@ -6,6 +6,8 @@ public class LoadScenesManager : MonoBehaviour
 {
     public static LoadScenesManager Instance;
 
+    [SerializeField] private GameObject quitPanel;
+
     private void Awake()
     {
         Instance = this;
@@ -40,6 +42,28 @@ public class LoadScenesManager : MonoBehaviour
         LoadActiveScene();
     }
 
-    public void QuitGame() => Application.Quit();
+    // Вызывается при нажатии на кнопку "Quit"
+    public void OnQuitButtonClick()
+    {
+        quitPanel.SetActive(true); // Показываем панель
+    }
+    
+    // Вызывается при нажатии на кнопку "NO"
+    public void OnNoButtonClick()
+    {
+        quitPanel.SetActive(false); // Скрываем панель, выход отменён
+    }
+
+    // Вызывается при нажатии на кнопку "YES"
+    public void OnYesButtonClick()
+    {
+        // В редакторе Unity — останавливаем режим игры,
+        // в собранном приложении — закрываем приложение.
+        #if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+        #else
+        Application.Quit();
+        #endif
+    }
     
 }
