@@ -41,6 +41,20 @@ public class LoadScenesManager : MonoBehaviour
         YG2.onCloseInterAdv -= CloseAd;
         LoadActiveScene();
     }
+    
+    public void ShowAdAndExitToMenu()
+    {
+        if (ADManager.Instance.ShowAd())
+            YG2.onCloseInterAdv += CloseAdAndExitToMenu;
+        else
+            SceneManager.LoadScene("Menu");
+    }
+
+    private void CloseAdAndExitToMenu()
+    {
+        YG2.onCloseInterAdv -= CloseAdAndExitToMenu;
+        SceneManager.LoadScene("Menu");
+    }
 
     // Вызывается при нажатии на кнопку "Quit"
     public void OnQuitButtonClick()
