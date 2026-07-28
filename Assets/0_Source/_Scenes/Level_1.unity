@@ -178,8 +178,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 06:00 Am
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3742eaf4ad27ff54fa2f1a747ff01170, type: 2}
+  m_sharedMaterial: {fileID: -7459126215656535354, guid: 3742eaf4ad27ff54fa2f1a747ff01170, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -209,7 +209,7 @@ MonoBehaviour:
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 149.41
-  m_fontStyle: 1
+  m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -657,8 +657,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 12:00 Am
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3742eaf4ad27ff54fa2f1a747ff01170, type: 2}
+  m_sharedMaterial: {fileID: -7459126215656535354, guid: 3742eaf4ad27ff54fa2f1a747ff01170, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -688,7 +688,7 @@ MonoBehaviour:
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 82.5
-  m_fontStyle: 1
+  m_fontStyle: 0
   m_HorizontalAlignment: 4
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -2682,9 +2682,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c382e82d04df69f45b38c58ba84355ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  baseLossRate: 0.005
-  extraLossPerActive: 0.01
-  maxSanity: 0.1
+  baseLossRate: 0.002
+  extraLossPerActive: 0.001
+  maxSanity: 1
   screamer: {fileID: 1435653632}
   sanityBar: {fileID: 217673242}
   interactiveObjects:
@@ -4728,7 +4728,7 @@ MonoBehaviour:
   victoryChecker: {fileID: 367026605}
   timerText: {fileID: 166183567}
   endHour: 6
-  secondsPerHour: 30
+  secondsPerHour: 50
 --- !u!224 &1027095325 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1292109126727643904, guid: b35267d7a28c3c842a179a380f6e6a8a, type: 3}
@@ -5959,8 +5959,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Player's sanity
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3742eaf4ad27ff54fa2f1a747ff01170, type: 2}
+  m_sharedMaterial: {fileID: -7459126215656535354, guid: 3742eaf4ad27ff54fa2f1a747ff01170, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5984,13 +5984,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36.65
+  m_fontSize: 29.59
   m_fontSizeBase: 44
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 82.5
-  m_fontStyle: 1
+  m_fontSizeMax: 29.59
+  m_fontStyle: 0
   m_HorizontalAlignment: 4
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -6096,8 +6096,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Pause
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3742eaf4ad27ff54fa2f1a747ff01170, type: 2}
+  m_sharedMaterial: {fileID: -7459126215656535354, guid: 3742eaf4ad27ff54fa2f1a747ff01170, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6127,7 +6127,7 @@ MonoBehaviour:
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 258.28
-  m_fontStyle: 1
+  m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -8067,6 +8067,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d791f9ef36247124c8ba8001e408ba93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  quitPanel: {fileID: 0}
 --- !u!4 &1774801020
 Transform:
   m_ObjectHideFlags: 0
@@ -8205,8 +8206,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.25233224, y: 2.3704534, z: 6.5044084}
-  m_Center: {x: 0.04636497, y: 1.1761703, z: -0.11187267}
+  m_Size: {x: 0.25233224, y: 2.3704534, z: 4.696278}
+  m_Center: {x: 0.04636607, y: 1.1761703, z: -1.0159376}
 --- !u!1 &1862267268
 GameObject:
   m_ObjectHideFlags: 0
@@ -8718,7 +8719,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 166183569}
-  - {fileID: 1165941421}
   - {fileID: 982911115}
   - {fileID: 1062415968}
   - {fileID: 1899359163}
@@ -8726,6 +8726,7 @@ RectTransform:
   - {fileID: 752294761}
   - {fileID: 413106731}
   - {fileID: 300525198}
+  - {fileID: 1165941421}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -10238,7 +10239,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4705020337865715897, guid: 4ab257dc82f7929428781fedbf4ae3b2, type: 3}
       propertyPath: waitTime
-      value: 1111
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4773145901791273453, guid: 4ab257dc82f7929428781fedbf4ae3b2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14810,7 +14811,7 @@ PrefabInstance:
       objectReference: {fileID: 7238790547572996285}
     - target: {fileID: 2308662394743470435, guid: 24a55302470d9934abc5a6fd17cb34cc, type: 3}
       propertyPath: waitTime
-      value: 1111
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3841840318943211835, guid: 24a55302470d9934abc5a6fd17cb34cc, type: 3}
       propertyPath: m_Name
@@ -15526,7 +15527,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1105709713004773175, guid: a1f2efee63e050a4492f2fb66b674731, type: 3}
       propertyPath: waitTime
-      value: 1111
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 3755363175674900901, guid: a1f2efee63e050a4492f2fb66b674731, type: 3}
       propertyPath: m_Name
