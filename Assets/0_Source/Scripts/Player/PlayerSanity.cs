@@ -25,6 +25,12 @@ public class PlayerSanity : MonoBehaviour
       StartCoroutine(ReduceSanityRuntime());
    }
    
+   public void SetSanity(float value)
+   {
+      _currentSanity = Mathf.Clamp(value, _minSanity, maxSanity);
+      RefreshUI(GetActiveObjectCount());
+   }
+   
    private IEnumerator ReduceSanityRuntime()
    {
       while (_currentSanity > _minSanity)
