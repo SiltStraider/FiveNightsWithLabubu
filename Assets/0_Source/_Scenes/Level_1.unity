@@ -572,6 +572,10 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1814595813607905363, guid: e6db692dd3be72140a76ccac41e98dda, type: 3}
+      propertyPath: panelWin
+      value: 
+      objectReference: {fileID: 1165941418}
+    - target: {fileID: 1814595813607905363, guid: e6db692dd3be72140a76ccac41e98dda, type: 3}
       propertyPath: enemyMove
       value: 
       objectReference: {fileID: 0}
@@ -792,15 +796,15 @@ MonoBehaviour:
   - Enemy: {fileID: 7238790547572996285}
     MovementPoints: {fileID: 1090786378}
     InteractObject: {fileID: 1193304559}
-    DelayBeforeStart: 1
+    DelayBeforeStart: 5
   - Enemy: {fileID: 2825754013871534164}
     MovementPoints: {fileID: 1104163076}
     InteractObject: {fileID: 1847900600}
-    DelayBeforeStart: 3
+    DelayBeforeStart: 10
   - Enemy: {fileID: 5571811508518727778}
     MovementPoints: {fileID: 1342543642}
     InteractObject: {fileID: 1193304559}
-    DelayBeforeStart: 5
+    DelayBeforeStart: 15
 --- !u!4 &166434328
 Transform:
   m_ObjectHideFlags: 0
@@ -2255,6 +2259,7 @@ MonoBehaviour:
   endTimeAudio: {fileID: 8300000, guid: d3fd52c242ed8ed419da8ba1990038ef, type: 3}
   playSoundEffects: {fileID: 1862267271}
   panelsController: {fileID: 1055433115}
+  playerSanity: {fileID: 479065444}
   menuLoadDelay: 13
 --- !u!1 &393063363
 GameObject:
@@ -10509,6 +10514,10 @@ PrefabInstance:
       propertyPath: delay
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: -8650884109301906255, guid: 4ab257dc82f7929428781fedbf4ae3b2, type: 3}
+      propertyPath: panelWin
+      value: 
+      objectReference: {fileID: 1165941418}
     - target: {fileID: 3714465627053066166, guid: 4ab257dc82f7929428781fedbf4ae3b2, type: 3}
       propertyPath: m_Name
       value: Enemy (1)
@@ -15094,6 +15103,10 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 783574473538009976, guid: 24a55302470d9934abc5a6fd17cb34cc, type: 3}
+      propertyPath: panelWin
+      value: 
+      objectReference: {fileID: 1165941418}
+    - target: {fileID: 783574473538009976, guid: 24a55302470d9934abc5a6fd17cb34cc, type: 3}
       propertyPath: enemyMove
       value: 
       objectReference: {fileID: 7238790547572996285}
@@ -15813,6 +15826,10 @@ PrefabInstance:
       propertyPath: delay
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: -3753040599626855447, guid: a1f2efee63e050a4492f2fb66b674731, type: 3}
+      propertyPath: panelWin
+      value: 
+      objectReference: {fileID: 1165941418}
     - target: {fileID: 634764441194050641, guid: a1f2efee63e050a4492f2fb66b674731, type: 3}
       propertyPath: drawBones
       value: 1

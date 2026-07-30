@@ -12,8 +12,10 @@
   <component name="ChangeListManager">
     <list default="true" id="d090dc68-f802-41c2-8105-12f1ea193567" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FiveNightsWithLabubu/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FiveNightsWithLabubu/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/0_Source/Scripts/Enemies/EnemyScreamer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0_Source/Scripts/Enemies/EnemyScreamer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/0_Source/Scripts/Game/VictoryChecker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0_Source/Scripts/Game/VictoryChecker.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/0_Source/Scripts/Player/PlayerSanity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0_Source/Scripts/Player/PlayerSanity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/0_Source/_Scenes/Level_1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0_Source/_Scenes/Level_1.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +37,9 @@
     &quot;accountId&quot;: &quot;57b59878-f4f2-46f3-8733-b784f18aff4a&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c870adb9bc304f0abc02d7f56d8f88641e1000/b3/fa18d3b2/WaitForSeconds.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3,
@@ -135,7 +140,7 @@
       <workItem from="1784607171809" duration="2498000" />
       <workItem from="1784781684427" duration="4258000" />
       <workItem from="1785221417324" duration="4575000" />
-      <workItem from="1785412738356" duration="2230000" />
+      <workItem from="1785412738356" duration="8909000" />
     </task>
     <servers />
   </component>

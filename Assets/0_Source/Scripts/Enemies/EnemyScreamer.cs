@@ -6,6 +6,7 @@ public class EnemyScreamer : MonoBehaviour
 {
     [SerializeField] private float delay;
     [SerializeField] private EnemyMove enemyMove;
+    [SerializeField] private GameObject panelWin;
     
     private Animator _animator;
     private string _animationAttack = "Attack";
@@ -33,13 +34,15 @@ public class EnemyScreamer : MonoBehaviour
     private IEnumerator DelayScream()
     {
         yield return new WaitForSeconds(delay);
-        if (_interactObject)
+        
+        // Проверяем: активна ли панель победы ИЛИ активен ли интерактивный объект
+        bool isWinPanelActive = panelWin != null && panelWin.activeSelf;
+        bool isInteractObjectActive = _interactObject != null && _interactObject.IsActive;
+        
+        if (isWinPanelActive || isInteractObjectActive)
         {
-            if (_interactObject.IsActive)
-            {
-                enemyMove.ReturnToStartPointAndMove();
-                yield break;
-            }       
+            enemyMove.ReturnToStartPointAndMove();
+            yield break;
         }
         
         _animator.SetTrigger(_animationAttack);

@@ -20,12 +20,6 @@ public class VictoryChecker : MonoBehaviour
         if (isWinHandled) return;
         isWinHandled = true;
         
-        // Устанавливаем sanity, например, на максимум или любое нужное значение
-        if (playerSanity != null)
-        {
-            playerSanity.SetSanity(1f); // 1 = 100% sanity
-        }
-        
         panelsController.SetActivePanelWin(true);
         playSoundEffects.PlayEffect(winAudio);
         playSoundEffects.PlayEffect(endTimeAudio);
