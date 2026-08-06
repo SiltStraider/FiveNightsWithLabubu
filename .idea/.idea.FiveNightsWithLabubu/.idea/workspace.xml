@@ -10,13 +10,7 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d090dc68-f802-41c2-8105-12f1ea193567" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.FiveNightsWithLabubu/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FiveNightsWithLabubu/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0_Source/Scripts/Enemies/EnemyScreamer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0_Source/Scripts/Enemies/EnemyScreamer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0_Source/Scripts/Game/VictoryChecker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0_Source/Scripts/Game/VictoryChecker.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0_Source/Scripts/Player/PlayerSanity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0_Source/Scripts/Player/PlayerSanity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0_Source/_Scenes/Level_1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0_Source/_Scenes/Level_1.unity" afterDir="false" />
-    </list>
+    <list default="true" id="d090dc68-f802-41c2-8105-12f1ea193567" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -140,7 +134,7 @@
       <workItem from="1784607171809" duration="2498000" />
       <workItem from="1784781684427" duration="4258000" />
       <workItem from="1785221417324" duration="4575000" />
-      <workItem from="1785412738356" duration="8909000" />
+      <workItem from="1785412738356" duration="9213000" />
     </task>
     <servers />
   </component>
