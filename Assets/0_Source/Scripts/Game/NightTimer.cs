@@ -30,6 +30,6 @@ public class NightTimer : MonoBehaviour
    
    private void RefreshUI()
    {
-      timerText.text = $"{currentHour:00}:00 Am";
+      timerText.text = $"{currentHour:00}:00";
    }
 }
