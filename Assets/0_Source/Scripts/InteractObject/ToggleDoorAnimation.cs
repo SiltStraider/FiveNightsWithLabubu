@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class ToggleDoorAnimation : InteractObject
 {
@@ -17,12 +18,26 @@ public class ToggleDoorAnimation : InteractObject
 
     private void OnMouseDown()
     {
-        if(ChekInteract() == false) return;
-        
+        if (EventSystem.current != null &&
+            EventSystem.current.IsPointerOverGameObject())
+        {
+            return;
+        }
+
+        OnClick();
+    }
+
+    public void OnClick()
+    {
+        if (!ChekInteract())
+            return;
+
         IsActive = !IsActive;
         animator.SetBool(nameOpenAnimation, IsActive);
-        
-        if (IsActive == false) playSoundEffects.PlayEffect(openDoorAudio);
-        else  playSoundEffects.PlayEffect(closeDoorAudio);
+
+        if (IsActive == false)
+            playSoundEffects.PlayEffect(openDoorAudio);
+        else
+            playSoundEffects.PlayEffect(closeDoorAudio);
     }
 }

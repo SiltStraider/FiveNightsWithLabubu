@@ -15,6 +15,11 @@ public class ToggleLight : InteractObject
 
     private void OnMouseDown()
     {
+        OnClick();
+    }
+    
+    public void OnClick()
+    {
         if(ChekInteract() == false) return;
         
         IsActive = !IsActive;
@@ -23,4 +28,5 @@ public class ToggleLight : InteractObject
         if (IsActive == true) playSoundEffects.PlayEffect(lightOnAudio);
         else playSoundEffects.PlayEffect(lightOffAudio);
     }
+        
 }
