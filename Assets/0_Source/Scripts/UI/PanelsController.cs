@@ -7,6 +7,8 @@ public class PanelsController : MonoBehaviour
     [SerializeField] private GameObject panelWin;
     [SerializeField] private GameObject panelGameOver; 
     [SerializeField] private GameObject panelPause;
+    [SerializeField] private GameObject mobilePanel;
+    
     [SerializeField] private float delayActivePanelGameOver = 4;
 
    private bool isPaused;
@@ -35,6 +37,11 @@ public class PanelsController : MonoBehaviour
    public void SetActivePanelWin(bool active)
    {
        panelWin.SetActive(active);
+   }
+   
+   public void ToggleMobilePanel()
+   {
+       mobilePanel.SetActive(!mobilePanel.activeSelf);
    }
 
    private void Update()

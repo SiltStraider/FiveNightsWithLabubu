@@ -10,21 +10,7 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d090dc68-f802-41c2-8105-12f1ea193567" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.FiveNightsWithLabubu/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FiveNightsWithLabubu/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0_Source/Art/Ui/Arrow.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0_Source/Art/Ui/Arrow.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0_Source/Art/Ui/LevelZone.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0_Source/Art/Ui/LevelZone.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0_Source/Scripts/Enemies/ScreamerManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0_Source/Scripts/Enemies/ScreamerManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0_Source/Scripts/InteractObject/ToggleDoorAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0_Source/Scripts/InteractObject/ToggleDoorAnimation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0_Source/Scripts/InteractObject/ToggleLight.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0_Source/Scripts/InteractObject/ToggleLight.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0_Source/Scripts/Player/CameraLookController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0_Source/Scripts/Player/CameraLookController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0_Source/_Scenes/Level_1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0_Source/_Scenes/Level_1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0_Source/_Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0_Source/_Scenes/Menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Editor/ModulesListYG2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Editor/ModulesListYG2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-    </list>
+    <list default="true" id="d090dc68-f802-41c2-8105-12f1ea193567" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -152,7 +138,7 @@
       <workItem from="1785412738356" duration="9213000" />
       <workItem from="1786010999001" duration="576000" />
       <workItem from="1786422292195" duration="2925000" />
-      <workItem from="1786592454469" duration="5920000" />
+      <workItem from="1786592454469" duration="6122000" />
     </task>
     <servers />
   </component>
