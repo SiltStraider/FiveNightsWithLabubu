@@ -10,7 +10,19 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d090dc68-f802-41c2-8105-12f1ea193567" name="Changes" comment="" />
+    <list default="true" id="d090dc68-f802-41c2-8105-12f1ea193567" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.FiveNightsWithLabubu/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.FiveNightsWithLabubu/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FiveNightsWithLabubu/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/0_Source/Scripts/ScenesControl/LoadScenesManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0_Source/Scripts/ScenesControl/LoadScenesManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/0_Source/Scripts/UI/PanelsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0_Source/Scripts/UI/PanelsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/0_Source/_Scenes/Level_1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0_Source/_Scenes/Level_1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/0_Source/_Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0_Source/_Scenes/Menu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Editor/BuildLogYG2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Editor/BuildLogYG2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginYourGames/Editor/ServerInfoYG2.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PluginYourGames/Editor/ServerInfoYG2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WebGLTemplates/YandexGames/Images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WebGLTemplates/YandexGames/Images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WebGLTemplates/YandexGames/Images/logo.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WebGLTemplates/YandexGames/Images/logo.png.meta" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -139,6 +151,8 @@
       <workItem from="1786010999001" duration="576000" />
       <workItem from="1786422292195" duration="2925000" />
       <workItem from="1786592454469" duration="6122000" />
+      <workItem from="1787028269517" duration="3806000" />
+      <workItem from="1787198477472" duration="6554000" />
     </task>
     <servers />
   </component>

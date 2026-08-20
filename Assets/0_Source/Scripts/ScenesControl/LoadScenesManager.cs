@@ -7,10 +7,25 @@ public class LoadScenesManager : MonoBehaviour
     public static LoadScenesManager Instance;
 
     [SerializeField] private GameObject quitPanel;
+    [SerializeField] private GameObject helloPanel;
+   
+    private const string HelloPanelShownKey = "HelloPanelShown";
 
     private void Awake()
     {
         Instance = this;
+
+        bool helloWasShown =
+            PlayerPrefs.GetInt(HelloPanelShownKey, 0) == 1;
+
+        helloPanel.SetActive(!helloWasShown);
+
+        // Отмечаем приветствие показанным
+        if (!helloWasShown)
+        {
+            PlayerPrefs.SetInt(HelloPanelShownKey, 1);
+            PlayerPrefs.Save();
+        }
     }
 
     public void LoadSceneID(int ID) => SceneManager.LoadScene(ID);
@@ -79,5 +94,10 @@ public class LoadScenesManager : MonoBehaviour
     //     Application.Quit();
     //     #endif
     // }
+
+    public void CloseHelloPanel()
+    {
+        helloPanel.SetActive(false);
+    }
     
 }

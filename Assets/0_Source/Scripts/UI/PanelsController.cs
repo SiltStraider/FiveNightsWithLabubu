@@ -12,6 +12,15 @@ public class PanelsController : MonoBehaviour
     [SerializeField] private float delayActivePanelGameOver = 4;
 
    private bool isPaused;
+   private bool isMobile;
+
+   private void Awake()
+   {
+       isMobile = Application.isMobilePlatform || Input.touchSupported;
+       
+       // Показываем мобильные кнопки только на мобильном устройстве
+       mobilePanel.SetActive(isMobile);
+   }
 
    private void OnEnable()
    {
@@ -41,7 +50,10 @@ public class PanelsController : MonoBehaviour
    
    public void ToggleMobilePanel()
    {
-       mobilePanel.SetActive(!mobilePanel.activeSelf);
+       if (!isMobile)
+           return;
+       else
+            mobilePanel.SetActive(!mobilePanel.activeSelf);
    }
 
    private void Update()
