@@ -16,10 +16,28 @@ public class PanelsController : MonoBehaviour
 
    private void Awake()
    {
-       isMobile = Application.isMobilePlatform || Input.touchSupported;
-       
-       // Показываем мобильные кнопки только на мобильном устройстве
+       isMobile = DetectMobileDevice();
+
+       if (mobilePanel == null)
+       {
+           Debug.LogError("MobilePanel не назначен в PanelsController.");
+           return;
+       }
+
+       // Включаем панель только на мобильном устройстве.
+       // На десктопе она сразу отключается.
        mobilePanel.SetActive(isMobile);
+   }
+
+   private bool DetectMobileDevice()
+   {
+#if UNITY_ANDROID || UNITY_IOS
+        return true;
+#elif UNITY_WEBGL && !UNITY_EDITOR
+        return Application.isMobilePlatform;
+#else
+       return false;
+#endif
    }
 
    private void OnEnable()
@@ -50,10 +68,11 @@ public class PanelsController : MonoBehaviour
    
    public void ToggleMobilePanel()
    {
+       // На десктопе метод ничего не делает
        if (!isMobile)
            return;
-       else
-            mobilePanel.SetActive(!mobilePanel.activeSelf);
+
+       mobilePanel.SetActive(!mobilePanel.activeSelf);
    }
 
    private void Update()
