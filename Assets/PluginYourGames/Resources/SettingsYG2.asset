@@ -154,10 +154,10 @@ MonoBehaviour:
     loadSceneIfSDKLate: 0
     loadSceneIndex: 0
     initDelaySimulation: 0
-    buildNumber: 3
+    buildNumber: 10
   Simulation:
-    device: 1
-    language: en
+    device: 0
+    language: ru
     enableInterAdv: 1
     advIntervalSimulation: 1
     durationAdv: 1
